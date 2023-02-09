@@ -18,6 +18,6 @@
   <property name="last-window-maximized" type="bool" value="false"/>
   <property name="last-window-width" type="int" value="800"/>
   <property name="last-window-height" type="int" value="600"/>
-  <property name="last-show-hidden" type="bool" value="true"/>
+  <property name="last-show-hidden" type="bool" value="false"/>
   <property name="misc-confirm-close-multiple-tabs" type="bool" value="false"/>
 </channel>
