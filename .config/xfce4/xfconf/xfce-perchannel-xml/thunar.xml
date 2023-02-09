@@ -16,8 +16,8 @@
     <value type="string" value="b091fd58-e570-4cda-bedf-1584e2a547f1"/>
   </property>
   <property name="last-window-maximized" type="bool" value="false"/>
-  <property name="last-window-width" type="int" value="640"/>
-  <property name="last-window-height" type="int" value="480"/>
+  <property name="last-window-width" type="int" value="800"/>
+  <property name="last-window-height" type="int" value="600"/>
   <property name="last-show-hidden" type="bool" value="true"/>
   <property name="misc-confirm-close-multiple-tabs" type="bool" value="false"/>
 </channel>

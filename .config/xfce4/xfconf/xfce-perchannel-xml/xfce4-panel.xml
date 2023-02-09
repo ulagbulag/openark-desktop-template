@@ -22,9 +22,9 @@
       </property>
       <property name="background-style" type="uint" value="1"/>
       <property name="background-rgba" type="array">
-        <value type="double" value="0.141176"/>
-        <value type="double" value="0.121569"/>
-        <value type="double" value="0.192157"/>
+        <value type="double" value="0.185956"/>
+        <value type="double" value="0.017778"/>
+        <value type="double" value="0.213333"/>
         <value type="double" value="1.000000"/>
       </property>
       <property name="enter-opacity" type="uint" value="100"/>
@@ -40,17 +40,6 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
         <value type="string" value="ibus-ui-gtk3"/>
-        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (68%)"/>
-        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (66%)"/>
-        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (67%)"/>
-        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (56%)"/>
-        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (57%)"/>
-        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (65%)"/>
-        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (62%)"/>
-        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (60%)"/>
-        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (63%)"/>
-        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (61%)"/>
-        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (59%)"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="xfce4-power-manager"/>
       </property>
@@ -58,7 +47,8 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance3822;chromium.instance5726;firefox.instance1273;firefox.instance1816;firefox.instance213;firefox.instance231;firefox.instance235;firefox.instance331;firefox.instance4270;firefox.instance8093"/>
+      <property name="mpris-players" type="string" value="chromium.instance3822;chromium.instance5726;chromium.instance6214;firefox.instance1273;firefox.instance1816;firefox.instance213;firefox.instance231;firefox
+.instance235;firefox.instance331;firefox.instance4270;firefox.instance8093"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
