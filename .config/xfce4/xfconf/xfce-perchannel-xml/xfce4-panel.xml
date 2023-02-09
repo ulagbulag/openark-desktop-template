@@ -4,7 +4,6 @@
   <property name="configver" type="int" value="2"/>
   <property name="panels" type="array">
     <value type="int" value="1"/>
-    <value type="int" value="2"/>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=6;x=0;y=0"/>
@@ -28,25 +27,8 @@
         <value type="double" value="0.192157"/>
         <value type="double" value="1.000000"/>
       </property>
-      <property name="enter-opacity" type="uint" value="50"/>
-      <property name="leave-opacity" type="uint" value="50"/>
-    </property>
-    <property name="panel-2" type="empty">
-      <property name="autohide-behavior" type="uint" value="1"/>
-      <property name="position" type="string" value="p=10;x=0;y=0"/>
-      <property name="length" type="uint" value="1"/>
-      <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="48"/>
-      <property name="plugin-ids" type="array">
-        <value type="int" value="15"/>
-        <value type="int" value="16"/>
-        <value type="int" value="17"/>
-        <value type="int" value="18"/>
-        <value type="int" value="19"/>
-        <value type="int" value="20"/>
-        <value type="int" value="21"/>
-        <value type="int" value="22"/>
-      </property>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -57,6 +39,13 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="ibus-ui-gtk3"/>
+        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (68%)"/>
+        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (66%)"/>
+        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (67%)"/>
+        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (56%)"/>
+        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (57%)"/>
+        <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (65%)"/>
         <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (62%)"/>
         <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (60%)"/>
         <value type="string" value="wi-fi network connection “wireless-wifi-wlp0s20f3-netai-m” active: netai-m (63%)"/>
@@ -69,7 +58,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance1273;firefox.instance1816;firefox.instance231;firefox.instance235;firefox.instance331;firefox.instance4270;firefox.instance8093"/>
+      <property name="mpris-players" type="string" value="chromium.instance3822;chromium.instance5726;firefox.instance1273;firefox.instance1816;firefox.instance213;firefox.instance231;firefox.instance235;firefox.instance331;firefox.instance4270;firefox.instance8093"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -77,36 +66,13 @@
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="true"/>
     </property>
-    <property name="plugin-12" type="string" value="clock"/>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="timezone" type="string" value="ROK"/>
+      <property name="digital-format" type="string" value="%Y-%m-%d %b %R"/>
+    </property>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-14" type="string" value="actions"/>
-    <property name="plugin-15" type="string" value="showdesktop"/>
-    <property name="plugin-16" type="string" value="separator"/>
-    <property name="plugin-17" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16756221581.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-18" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16756221582.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-19" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16756221583.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-20" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16756221584.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-21" type="string" value="separator"/>
-    <property name="plugin-22" type="string" value="directorymenu">
-      <property name="base-directory" type="string" value="/home/user"/>
-    </property>
   </property>
 </channel>
