@@ -56,7 +56,7 @@
       <property name="expand" type="bool" value="true"/>
     </property>
     <property name="plugin-12" type="string" value="clock">
-      <property name="timezone" type="string" value="ROK"/>
+      <property name="timezone" type="string" value="Asia/Seoul"/>
       <property name="digital-format" type="string" value="%Y-%m-%d %R"/>
     </property>
     <property name="plugin-13" type="string" value="separator">
